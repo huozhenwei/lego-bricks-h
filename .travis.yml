@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - 16
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: "718289183@qq.com"
+  api_key: "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"
+  on:
+    tags: true
