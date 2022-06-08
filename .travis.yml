@@ -4,7 +4,8 @@ node_js:
 deploy:
   provider: npm
   skip_cleanup: true
-  email: "718289183@qq.com"
-  api_key: "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"
+  email: 718289183@qq.com
+  api_key:
+    secure: rZlBNQ8t03c5WzolhdIZQOJwfeRZdLfeGiM1HIOf9HASQKQghb0qU974sgl8DDGtmymvTC0o2GDcly2zA6AI7VdbviJHdR2s5KtrWvvyIQtfhLAxqD5AQZiyfUE1BcL0JCr8yLzniZwL2ePip0LSvxsxGP1wO9yjKExzkHpIPUtWsGrcRotU/pjVvlX8RQH6Cryp+EEu22JfZYzZ5rgss6TWwzJ4kcttAC1OOWWN+Rh/PlnFHYkQ2rbAb5ufKx8Cg8H94AG8fvTnDc3BaGvQLADk+bjAjTb1Gr7Mx7zytYyAWIwotF4KoSSDTBxeVb1SrDtlbTTk7LZX2udrph6B3/MjkNBBeQItmFJOheruBmGa9z6GMly5RURaLzKsSNua61x7Hd8UX3as14l4l1vjcip1h+4X6JQDc/5usJd+p4GgJBWeJTM7nssIRbOXvQOWrUTQitxsD0XdPRUOOgGcobCjX885QGQWZHMdqHW9vHR8doVl7xdmG4SM6wqgNe7P9yVg7WU5+FP4luLD3lQxYymoabxm3qoVu1cakzBTXwrr1//EQ6EbfBj4+0Z4rFeVOYawlBeeItp2HZgUjP+93tQL7j+WglCG+S749134heRVQTC2gtBV+bafDbCmhF2+u6eC3G47+xsP+biJbAxIAZmHRBPO3Ty6d8hvYAw2Pvk=
   on:
     tags: true
